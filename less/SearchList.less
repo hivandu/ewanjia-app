@@ -1,0 +1,436 @@
+/* index 主页 */
+
+.SearchPage{
+
+}
+/* top nav */
+#SearchP{
+  .W-nav{
+    background:url("../css/img/navBg.png");
+    height: 2.133rem!important;
+    .upBtn{
+      width: 0.488rem;
+      display: block;
+      float: left;
+      margin-top: 0.622rem;
+      margin-left: 0.288rem;
+    }
+    .search{
+      margin-left: 0.911rem;
+      margin-top: 0.32rem;
+      display: block;
+      float: left;
+      .searchInput{
+        border: 1px solid #ccc;
+        border-radius: 0;
+        text-indent: .2rem;
+        width: 11.3rem!important;
+        height: 1.444rem!important;
+        vertical-align: middle;
+        display: block;
+        float: left;
+      }
+      .searchBtn{
+        background:url("../css/img/Searc.png") no-repeat center;
+        -webkit-background-size: 0.688rem;
+        border-radius: 0;
+        border:1px solid #ccc;
+        border-left: none;
+        background-size: 0.688rem;
+        position: relative;
+        display: block;
+        float: left;
+        width: 1.444rem;
+        height: 1.444rem;
+        vertical-align: middle;
+      }
+    }
+    .more{
+      display: block;
+      float: right;
+      width: 2.322rem;
+      border-left: 1px solid #ebebeb;
+      height: 2rem;
+      line-height: 1.7rem;
+      text-align: center;
+      img{
+        width: 1.066rem;
+      }
+    }
+
+  }
+}
+
+
+
+/* Snav */
+.Snav {
+  .shadow{
+    -moz-box-shadow: 1px 2px 2px #e7e7e7;
+    -webkit-box-shadow: 1px 2px 2px #e7e7e7;
+    box-shadow: 1px 2px 2px #e7e7e7;
+    position: relative;
+    z-index: 3;
+  }
+  ul{
+    display: -webkit-box;
+    display: -moz-box;
+    background: #fff;
+    li{
+      -webkit-box-flex: 1;
+      text-align: center;
+      height: 1.555rem;
+      line-height: 1.555rem;
+      .up{
+        width: 0.4rem;
+      }
+      .down{
+        width: 0.4rem;
+        transform:rotate(90deg);	/* Firefox */
+        -webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+        -o-transform:rotate(180deg);
+      }
+    }
+    .active{
+      background-color: #e14041!important;
+      color: #fff!important;
+      i{
+        color: #fff!important;
+      }
+    }
+  }
+
+}
+/* Living 持家有道 */
+.Living{
+  li{ padding: 0.555rem 0.444rem 0.555rem 0.914rem!important;
+    position: relative;
+  }
+}
+/* Search list */
+.SearchListP{
+  background: #fff;
+  position: relative;
+  li{ padding: 0.555rem 0.444rem 0.555rem 2rem;
+    position: relative;
+  }
+  .themeradio{
+    position: absolute;
+    left: .5rem;
+    top: 50%;
+    margin-top: -0.4666rem;
+  }
+  .name{
+    margin-top: .2rem;width: 8.7rem;
+    height: 1.53rem;
+    overflow: hidden;
+    line-height:.8rem;
+  }
+  p{ line-height: .7rem;}
+  .Pimg{
+    width: 3.5111rem;
+    /*height: 3.505rem;*/
+  }
+  .titleTiny{
+    font-size: 0.533rem;
+  }
+  .label{
+    span{
+      font-size: 0.355rem;
+      padding: 0.05rem .2rem;
+      color: #fff;
+      margin-top: .1rem;
+      margin-right: .2rem;
+      -webkit-border-radius: .3rem;
+      border-radius: .3rem;
+      line-height: .18rem;
+    }
+  }
+  .price{
+    font-size: 0.933rem;
+  }
+  .pft{ margin-top: .3rem }
+  .addcart{
+    position: absolute;
+    bottom: 0.666rem;right: 0.711rem;
+    img{
+      width: 1.888rem;
+      display: block;
+    }
+    :active{
+      border: 1px solid red;
+    }
+  }
+}
+.unfoldMore{
+  background: url("../css/img/SCmorebg.png") no-repeat center .7rem;
+  background-size: 13.422rem;
+  position: relative;
+  padding: .3rem 0 .8rem 0;
+}
+.unfoldMore img{
+  position: absolute;
+  width: 0.555rem;
+  left: 50%;
+  margin-left: -0.222rem;
+  bottom: 0.4rem;
+}
+.cartCont{
+  position: fixed;
+  background: #e04040;
+  padding: 0 0.244rem;
+  color: #fff;
+  bottom: 1.755rem;
+  right: 0;
+  img{
+    width: 0.6444rem;
+  }
+}
+
+.filtrat_List{
+  position: relative;
+  background: #fff;
+  z-index: 399;
+  .title{
+    font-size: 0.9333rem;
+    text-align: center;
+    padding: .4rem 0;
+  }
+  li{
+    font-size:0.666rem;
+    padding: .6rem 0.666rem;
+    border-top: 1px solid #e1e1e1;
+
+
+  }
+  .price{
+    color: #e1e1e1;
+    input{
+      width: 4.266rem;
+      text-align: center;
+      border: none;
+      border: 1px solid #e1e1e1;
+    }
+    a{
+      color:#999;
+    }
+
+  }
+  .active{
+    background: url("../css/img/filxuanz.png") no-repeat 95% center;
+    -webkit-background-size: 0.7555rem;
+    background-size: 0.7555rem;
+  }
+
+}
+
+/* filtrateMod 筛选 CSS */
+.filtrateMod{
+  z-index: 9999;
+  position: fixed;
+  width: 90%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  .shadeMod{
+    position:absolute;
+    top: -.2rem;
+    background: #000;
+    height: 400%;
+    opacity: .6;
+    left: -12%;
+    width: 112%;
+  }
+  .filtrateHd{
+    background: #fff;
+    text-align: center;
+    z-index: 399;
+    position: relative;
+    padding: 0 0.666rem;
+    height: 2.177rem;
+    line-height: 2.177rem;
+    font-size: 0.666rem;
+    color: #333;
+    p{
+      color: #999;
+    }
+  }
+  .filtrateBd{
+    background: #ededed;
+    height: 100%;
+    z-index: 399;
+    position: relative;
+
+    .botoom_btn{
+      width: 6.3777rem;
+      margin: 0 auto;
+      background: #fff;
+      margin-top: .92rem;
+      padding: .1rem 0;
+      text-align: center;
+      border: 1px solid #818181;
+      a{
+        font-size:0.8;
+      }
+    }
+    ul{
+      background: #fff;
+      .bor10{
+        border-bottom: 0.222rem solid #ededed;
+
+      }
+      li{
+        span{
+          position: relative;
+        }
+
+        font-size: 0.666rem;
+        color: #333;
+        padding: .3rem 0.6666rem;
+        -webkit-background-size: 0.9111rem;
+        background-size: 0.9111rem;
+        .address{
+          color: #e04040;
+        }
+        a{
+          i{
+            padding-left: .3rem;
+            position: relative;
+            top: -.05rem!important;
+          }
+        }
+
+        .iosCheck{
+          position: relative;
+          top: 1px;
+          input {
+            display: none;
+          }
+          i {
+            display: inline-block;
+            cursor: pointer;
+            padding-right: 1.1777rem;
+            transition: all ease 0.2s;
+            -webkit-transition: all ease 0.2s;
+            border-radius: 25px;
+            box-shadow: inset 0 0 1px rgba(0,0,0,.5);
+            &:before {
+              display: block;
+              content: '';
+              width: 1.022rem;
+              height: 1.022rem;
+              border-radius: 1.022rem;
+              background: white;
+              box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            }
+          }
+
+          :checked + i {
+            padding-right: 0;
+            padding-left: 25px;
+            background: #e04040;
+            box-shadow: inset 0 0 1px rgba(0,0,0,.5), inset 0 0 40px #e04040;
+            -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,.5), inset 0 0 40px #e04040;
+          }
+
+        }
+        .checkbox:focus{
+          border: none !important;
+          box-shadow:none!important;
+        }
+      }
+
+    }
+  }
+  .filtrateCont{
+    background: #fff;
+    z-index: 399;
+    position: relative;
+    p{
+      padding: 0 0.666rem;
+      font-size: 0.666rem;
+      color: #333;
+      height: 2.1333rem;
+      line-height: 2.1333rem;
+    }
+    .rightY{
+      background:url("../css/img/fildw.png") no-repeat center right;
+      -webkit-background-size: 0.4222rem;
+      background-size: 0.4222rem;
+      padding: 0 .6rem;
+      margin-right:0.666rem;
+    }
+    .rightYactive{
+      background:url("../css/img/filup.png") no-repeat center right;
+      -webkit-background-size: 0.4222rem;
+      background-size: 0.4222rem;
+      padding: 0 .6rem;
+      margin-right:0.666rem;
+    }
+    .listConthd{
+      width: 100%;
+    }
+    .listCont{
+      width: 100%;
+      display: none;
+      padding: 0 -0.666rem !important;
+      li{
+        margin: 0 0.666rem;
+        text-align: center;
+        color: #333;
+        height: 2.1333rem;
+        line-height: 2.1333rem;
+        border-bottom: 1px solid #e8e8e8;
+      }
+      .active{
+        background-size: 0.7555rem;
+        color: #e14041!important;
+        i{
+          position: absolute;padding:0 0.2rem 0 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+/* search_sum */
+.search_sum{
+  position:fixed;
+  z-index: 999;
+  display: block;
+  bottom:.5rem;
+  color: #fff;
+  background: #000;
+  opacity: .7;
+  text-align: center;
+  left: 50%;
+  margin-left: -1.25rem;
+  width: 2.5rem;
+  height: .7rem;
+  line-height: .8rem;
+  border-radius: 1rem;
+}
+
+/* up_btn */
+.up_btn{
+  bottom:.4rem;
+  position:fixed;
+  right: .3rem;
+  z-index: 999;
+  img{
+    width: 1.6333rem;
+  }
+
+}
+
+
+/* 左右Input切换滑块 */
+.shade{
+  position:fixed;
+  top: -10rem;
+  background: #000;
+  z-index: 999;
+  height: 400%;
+  opacity: .8;
+  width: 100%;
+}

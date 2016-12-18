@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html ID="html">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title></title> 
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <!-- vendor css -->
+    <link rel="stylesheet" href="css/ewanjia.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet/less" href="less/SearchList.less">
+    <!-- js -->
+    <script src="js/jqueyr-2.1.1.js"></script>
+    <!-- less compiler -->
+    <script src="js/less.min.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <!-- top nav-->
+            <div id="SearchP">
+                <div class="row shadow">
+                    <div class="W-nav clearfix  SearchNav">
+                        <a><img src="css/img/topup.png" class="upBtn"></a>
+                        <div class="search clearfix">
+                            <input type="text" class="searchInput">
+                            <a class="searchBtn">&nbsp;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 筛选模块 filtrate module -->
+        <div class="filtrateMod ">
+            <div class="filtrateHd clearfix fz42" style="display: none;">
+                <p class="fl-l fz30">取消</p>
+                筛选
+                <p class="fl-r fz30">确定</p>
+            </div>
+            <div class="filtrateBd " style="display: none;">
+                <ul>
+                    <li class="fz30 bor10">
+                        配送至
+                        <a class="fl-r address" href="#">北京<i class="ewanjiaIcon fz26">&#x2714;</i></a>
+                    </li>
+                    <li class="borBottom">
+                        只看进口商品
+                        <label class="iosCheck fl-r">
+                            <input type="checkbox" checked="yes"><i></i>
+                        </label>
+                    </li>
+                    <li class="bor10">
+                        只看促销优惠商品
+                        <label class="iosCheck fl-r">
+                            <input type="checkbox" ><i></i>
+                        </label>
+                    </li>
+                    <li class="fz30 borBottom">
+                        品牌
+                        <a class="fl-r" href="#">不限<i class="ewanjiaIcon fz26">&#x2714;</i></a>
+                    </li>
+                    <li class="fz30 borBottom">
+                        价格
+                        <a class="fl-r" href="#">不限<i class="ewanjiaIcon fz26">&#x2714;</i></a>
+                    </li>
+                    <li class="fz30 borBottom">
+                        规格
+                        <a class="fl-r" href="#">散装<i class="ewanjiaIcon fz26">&#x2714;</i></a>
+                    </li>
+                    <li class="fz30 ">
+                        重量
+                        <a class="fl-r" href="#">不限<i class="ewanjiaIcon fz26">&#x2714;</i></a>
+                    </li>
+                </ul>
+                <div class="botoom_btn">
+                    <a>清除选项</a>
+                </div>
+            </div>
+
+            <!-- filtrate 选择list层 -->
+            <div class="filtrat_List">
+                <h3 class="title">配送至</h3>
+                <ul>
+                    <li class="active">北京</li>
+                    <li>上海</li>
+                    <li>广州</li>
+                    <li>深圳</li>
+                    <!-- 价格 -->
+                    <li class="price">
+                        <input type="text" class="themeInput" placeholder="起始价格" maxlength="5">
+                        <span>--</span>
+                        <input type="text" class="themeInput" placeholder="终止价格" maxlength="5">
+                        <a class="fl-r" href="#">确定</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 遮罩层 -->
+            <div class="shadeMod">&nbsp;</div>
+
+        </div>
+
+        <!-- end 筛选模块 filtrate module -->
+
+
+        <article>
+            <!-- SearchList -->
+            <div class="row mt10">
+                <!-- Snav 搜索导航-->
+                <div class="Snav pt12">
+                    <ul class="shadow">
+                        <li class="active">默认</li>
+                        <li class="price borRight">价格&nbsp;<i class="iconfont fz24 coraaa top1">&#xe603;</i></li>
+                        <li class="volume borRight">销量&nbsp;<i class="iconfont fz24 coraaa top1">&#xe602;</i></li>
+                        <li class="screen">筛选</li>
+                    </ul>
+                </div>
+
+
+
+                <div class="SearchListP Search ">
+                    <ul>
+                        <li class="clearfix borBottom borTop">
+                            <img src="images/cjyd.png" class="Pimg border fl-l">
+                            <div class="fl-l ml12">
+                                <a href="#"><p class="name fz26 cor333">正林坚果正林坚果坚果正林坚炒货 3A黑瓜子炒货 3A黑瓜子500g</p></a>
+                                <P class="label"><span class="BgR">满减</span><span class="BgB">进口</span><span class="BgG">有机</span></P>
+                                <p class="pft"><i class="fz34 redS">¥</i><span class="price redS">180<i class="fz34 redS">.00</i></span></p>
+                            </div>
+                            <a class="addcart">
+                                <img src="css/img/addcart.png">
+                            </a>
+                        </li>
+
+                        <li class="clearfix borBottom borTop">
+                            <img src="images/cjyd.png" class="Pimg border fl-l">
+                            <div class="fl-l ml12">
+                                <a href="#"><p class="name fz26 cor333">正林坚果炒货 3A黑瓜子500g</p></a>
+                                <P class="label"><span class="BgR">满减</span><span class="BgB">进口</span><span class="BgG">有机</span></P>
+                                <p class="pft"><i class="fz34 redS">¥</i><span class="price redS">180<i class="fz34 redS">.00</i></span></p>
+                            </div>
+                            <a class="addcart">
+                                <img src="css/img/addcart.png">
+                            </a>
+                        </li>
+
+                        <li class="clearfix borBottom borTop">
+                            <img src="images/cjyd.png" class="Pimg border fl-l">
+                            <div class="fl-l ml12">
+                                <a href="#"><p class="name fz26 cor333">正林坚果炒货 3A黑瓜子500g</p></a>
+                                <P class="label"><span class="BgR">满减</span><span class="BgB">进口</span><span class="BgG">有机</span></P>
+                                <p class="pft"><i class="fz34 redS">¥</i><span class="price redS">180<i class="fz34 redS">.00</i></span></p>
+                            </div>
+                            <a class="addcart">
+                                <img src="css/img/addcart.png">
+                            </a>
+                        </li>
+                        <li class="clearfix borBottom borTop">
+                            <img src="images/cjyd.png" class="Pimg border fl-l">
+                            <div class="fl-l ml12">
+                                <a href="#"><p class="name fz26 cor333">正林坚果炒货 3A黑瓜子500g</p></a>
+                                <P class="label"><span class="BgR">满减</span><span class="BgB">进口</span><span class="BgG">有机</span></P>
+                                <p class="pft"><i class="fz34 redS">¥</i><span class="price redS">180<i class="fz34 redS">.00</i></span></p>
+                            </div>
+                            <a class="addcart">
+                                <img src="css/img/addcart.png">
+                            </a>
+                        </li>
+                        <li class="clearfix borBottom borTop">
+                            <img src="images/cjyd.png" class="Pimg border fl-l">
+                            <div class="fl-l ml12">
+                                <a href="#"><p class="name fz26 cor333">正林坚果炒货 3A黑瓜子500g</p></a>
+                                <P class="label"><span class="BgR">满减</span><span class="BgB">进口</span><span class="BgG">有机</span></P>
+                                <p class="pft"><i class="fz34 redS">¥</i><span class="price redS">180<i class="fz34 redS">.00</i></span></p>
+                            </div>
+                            <a class="addcart">
+                                <img src="css/img/addcart.png">
+                            </a>
+                        </li>
+
+
+
+                    </ul>
+
+                    <!-- 数量 -->
+                    <div class="search_sum fz24">
+                        15/300
+                    </div>
+
+                    <!-- up btn -->
+                    <a class="up_btn">
+                        <img src="css/img/up_btn.png">
+                    </a>
+
+                </div>
+            </div>
+            <!-- SearchList -->
+
+
+
+
+        </article>
+
+
+    </div>
+    <script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

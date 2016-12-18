@@ -1,0 +1,43 @@
+#productSearch {
+  position: absolute;
+  height: 100%;
+  display: block;
+}
+#productSearch .W-nav {
+  padding-bottom: 0.444rem !important;
+}
+#productSearch .upBtn {
+  width: 0.488rem;
+  display: block;
+  float: left;
+  margin-top: 0.622rem;
+  margin-left: 0.288rem;
+}
+#productSearch .search {
+  width: 83%;
+}
+#productSearch .searchInput {
+  width: 89.9%;
+}
+/* searchCont */
+.searchCont {
+  background: #fff;
+  height: 100%;
+  display: block;
+}
+.searchCont ul {
+  width: 100%;
+  padding-bottom: .5rem;
+}
+.searchCont ul li {
+  display: -webkit-box;
+  display: box;
+  width: 100%;
+}
+.searchCont ul li a {
+  padding: .2rem .0rem;
+  display: block;
+  margin: 0 0.222rem;
+  text-align: center;
+  -webkit-box-flex: 1;
+}

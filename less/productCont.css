@@ -1,0 +1,283 @@
+/* productCont page */
+/* top nav */
+#productCont .W-nav {
+  background: url("../css/img/navBg.png");
+}
+#productCont .W-nav .upBtn {
+  width: 0.488rem;
+  display: block;
+  float: left;
+  margin-top: 0.622rem;
+  margin-left: 0.288rem;
+}
+#productCont .W-nav .search {
+  margin-left: 0.911rem;
+  margin-top: 0.42rem;
+  display: block;
+  float: left;
+  width: 9.222rem;
+}
+#productCont .W-nav .more {
+  display: block;
+  float: right;
+  width: 2.322rem;
+  border-left: 1px solid #ebebeb;
+  height: 2rem;
+  line-height: 1.7rem;
+  text-align: center;
+}
+#productCont .W-nav .more img {
+  width: 0.777rem;
+}
+.produnctWrap {
+  padding-bottom: 1rem!important;
+  background: #fff;
+}
+.produnctWrap .slide-banner .swiper-slide img {
+  width: 100%;
+  height: auto!important;
+}
+/* 商品 Cont */
+.ContHd {
+  background: #fff;
+}
+.ContHd p {
+  padding: 0 0.222rem;
+  line-height: .8rem;
+}
+.ContHd .Pft {
+  padding: 0 0.222rem;
+}
+.ContHd .Pft .PriceHd {
+  position: relative;
+  top: -0.2rem;
+}
+.ContHd .Pft .price {
+  font-size: 1.3777rem;
+}
+.ContHd .Pft .originalPrice {
+  font-size: 0.888rem;
+  position: relative;
+  top: -0.1rem;
+}
+.ContHd .lineM {
+  line-height: .8rem;
+}
+.bannerImg {
+  display: block;
+  width: 100%;
+}
+/* ContBd */
+.ContBd {
+  background: #fff;
+  padding-bottom: .7rem;
+}
+.ContBd p {
+  line-height: .8rem;
+}
+.ContBdL p {
+  font-size: 0.444rem;
+  width: 1.377rem;
+  display: block;
+}
+.ContBdR {
+  display: block;
+  padding: 0 .1rem;
+}
+.ContBdR input {
+  vertical-align: middle;
+}
+.ContBdR .mzDiv {
+  width: 12.5rem;
+  margin-left: .1rem;
+}
+.ContBdR .mzDiv .BgRlable,
+.ContBdR .mzDiv .BgB,
+.ContBdR .mzDiv .BgG {
+  position: relative;
+  top: -0.05rem;
+}
+.ContBdR .ts {
+  width: 13rem;
+  margin-left: 0.1rem;
+}
+.ContBdR .sumKz {
+  position: relative;
+  top: -0.1rem;
+  margin-left: .14rem;
+}
+.ContBdR .select {
+  position: relative;
+  top: -0.1rem;
+  width: 12.5rem;
+  background: url("../css/img/selectBg.png") no-repeat 11.71rem center;
+  -webkit-background-size: 0.2666rem;
+  background-size: 0.2666rem;
+  height: 1.1777rem;
+  border: 1px solid #ebebeb;
+  border-radius: 0;
+}
+.ContBdR .number {
+  border-radius: 0;
+  width: 1.733rem;
+  height: 1.066rem;
+  text-align: center;
+}
+.ContBdR .reduce img,
+.ContBdR .add img {
+  width: 0.8444rem;
+  vertical-align: middle;
+}
+.ContBdR .service img {
+  position: relative;
+  top: -2px;
+  margin-right: 0.177rem;
+}
+.ContBdR .service .zhij {
+  width: 0.577rem;
+  vertical-align: middle;
+}
+.ContBdR .service .baox {
+  width: 0.6rem;
+  vertical-align: middle;
+}
+.ContBdR .service .renz {
+  width: 0.577rem;
+  vertical-align: middle;
+}
+/* ContFt */
+.ContFt {
+  background: #fff;
+  position: relative;
+}
+.ContFt .ContFtXq {
+  border-bottom: 1px #e04040 solid;
+}
+.ContFt .ContFtXq .goodImg {
+  width: 0.5111rem;
+  display: inline-block;
+  margin-left: 0.2rem;
+}
+.ContFt .ContFtXq li {
+  width: 50%;
+  text-align: center;
+  height: 0.9777rem;
+  line-height: 0.9777rem ;
+}
+.ContFt .ContFtXq :active {
+  font-size: 0.455rem!important;
+}
+.ContFt .ContFtXq :active i {
+  color: #fff!important;
+}
+.ContFt .ContFtXq .GraphicDetails {
+  color: #555;
+  background-color: #f0f0f0;
+}
+.ContFt .ContFtXq .iconfont {
+  font-size: 0.5111rem;
+}
+.ContFt .ContFtXq .active {
+  color: #fff!important;
+  background: #e04040 !important;
+}
+.ContFt .ContFtXq .Reviews {
+  background: #f0f0f0;
+}
+.ContFt .ContImg img {
+  width: 100%;
+  display: block;
+}
+.ContFt .ContComment {
+  padding: 0 0.222rem;
+}
+.ContFt .ContComment li {
+  padding: .3rem 0;
+}
+.ContFt .ContComment .CommentCont {
+  line-height: .6rem;
+}
+.ContFt .ContComment .userhead {
+  width: 1.1777rem;
+  display: block;
+}
+.ContFt .ContComment .CommentValue img {
+  width: 0.4rem;
+  display: block;
+  float: left;
+  margin-right: .1rem;
+}
+.ContFt .ContComment .CommentBd {
+  position: relative;
+  margin-top: .2rem;
+}
+.ContFt .ContComment .CommentTime {
+  right: 0;
+  position: absolute;
+  color: #cfcfcf;
+  bottom: -0.1rem;
+}
+/* 买手推荐 */
+.Mtuijian {
+  background: none !important;
+}
+.Mtuijian .productUl {
+  display: block!important;
+}
+.Mtuijian .two {
+  width: 49.26%;
+  display: block;
+}
+.Mtuijian .two a {
+  display: block;
+}
+.Mtuijian .two a img {
+  display: block;
+}
+.Mtuijian .two .Classname {
+  line-height: .6rem;
+}
+.Mtuijian .two p {
+  line-height: .7rem;
+  background: #fff;
+}
+.Mtuijian .two .MtuijianFt {
+  padding-top: .15rem!important;
+  padding-bottom: .2rem!important;
+}
+/* 加入购物车底部 addCart */
+.ContFtNav {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 999;
+  left: 0;
+}
+.ContFtNav .addcart {
+  width: 72.6389%;
+  text-align: center;
+  background: #e04040;
+  color: #fff;
+  border-top: #e35353 solid 1px;
+  border-bottom: #bd1b1b solid 1px;
+}
+.ContFtNav .collect {
+  background: url("../css/img/navBg.png");
+  width: 27.3611%;
+  text-align: center;
+  border-top: #e8e8e8 solid 1px;
+  border-bottom: #f0f0f0 solid 1px;
+}
+.ContFtNav .collect img {
+  width: 0.6888rem;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  margin-right: .15rem;
+}
+.ContFtNav .collect,
+.ContFtNav .addcart {
+  height: 1.5111rem;
+  line-height: 1.5111rem;
+  display: block;
+}
